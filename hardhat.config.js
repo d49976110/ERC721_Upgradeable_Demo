@@ -20,8 +20,8 @@ module.exports = {
     },
     etherscan: {
         apiKey: {
-            goerli: process.env.ETHERSCAN_APIKEY,
-            polygonMumbai: process.env.POLYGON_APIKEY,
+            goerli: process.env.ETHERSCAN_API_KEY,
+            polygonMumbai: process.env.POLYGON_API_KEY,
         },
     },
 };
